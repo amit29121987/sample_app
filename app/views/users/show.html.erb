@@ -1,0 +1,9 @@
+<%= provide(:title,@user.name) %>
+
+
+
+<div class="img-circle">
+
+        <%= gravatar_for @user %>
+        <b>Welcome <%= @user.name %></b>
+</div>
